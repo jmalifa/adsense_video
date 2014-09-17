@@ -1,0 +1,228 @@
+$text-font:    Arial, Verdana, san-serif;
+$section-font: Helvetica Neue;
+$heading-font: Cantarell;
+$primary-color: #3172AA;
+$secondary-color: #6195C4;
+$widget-color: #B6330E;
+$other-color: #999999;
+$text-size:13px;
+
+
+
+.main-section-main {
+    border-bottom: 1px solid #ccc;
+
+    h2 {
+    font-size: 30px;
+    font-family: Helvetica Neue;
+    margin-bottom: 0px;
+    font-style: normal;
+
+    }
+
+    .author {
+        padding-bottom: 10px;
+    }
+
+}
+
+.main-section-story {
+    border-bottom:1px solid #ccc;
+    
+    h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    img {
+        width:100%;
+        margin-top: 10px;
+    }
+}
+
+.main-left-content {
+    border-right: 1px solid #ccc;
+	
+    .main-latest-section {
+    	margin-top: 10px;
+        border-bottom:1px solid #ccc;
+        
+        img {
+
+        width: 200px;
+        float:right;
+        margin-left: 10px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-family: $section-font;
+            font-weight: 500;
+            margin-top: 0px;
+            color: black;
+            letter-spacing: 0px;
+        }
+
+        h3:hover {
+            color:#ccc;
+        }
+
+        p {
+            font-family: $text-font;
+            font-size:12px;
+            margin: 0px 10px 10px 0px;
+
+        }
+
+        p:last-child {
+        	color:$widget-color;
+        }
+    }
+    
+
+    .ad-300x250-section  {
+        border-bottom: 1px solid #ccc;
+
+        
+
+        .ad-container {
+            /*width: 336px;
+            height: 280px;
+            background-color: #ccc;
+            margin: 0 auto;*/
+            margin-bottom: 10px;
+            margin-top:10px;
+            text-align: center;
+
+            iframe {
+            	margin:0 auto;
+            }
+
+        }
+    }
+
+}
+
+.column-section {
+       margin-bottom: 10px;
+       border-right: 1px solid #ccc;
+
+    img {
+        width: 100%;
+    }
+
+    
+    .column-section-one {
+        border-bottom: 1px solid #ccc;
+        
+        h3 {
+            font-size: 15px;
+            font-family: Helvetica Neue;
+            margin-top:10px;
+            font-weight: 500;
+            color:$widget-color;
+            letter-spacing: 1px;
+            
+        }
+
+        .profile-img-container {
+                width:50px;
+                text-align: center;
+                margin-left: 10px;
+
+                .profile-img-sml {
+
+                    border-radius: 50%;
+                    width:50px;
+                    height:50px;
+                    background-image: url(../img/2_profile_small.jpg);
+                }
+
+                p {
+                    font-size: 12px;
+                    color:#999999;
+                    margin-bottom: 0px;
+                    
+                }
+
+        }
+
+        .section-right-columns {
+
+            p {
+                font-family: $text-font;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .column-section-two {
+        border-bottom: 1px solid #ccc;
+
+        .column-section-two-head {
+        
+            h3 {
+                font-size: 15px;
+                font-family: Helvetica Neue;
+                margin-top:10px;
+                font-weight: 500;
+                color:$widget-color;
+                letter-spacing: 1px;
+                
+            }
+        }
+
+        .column-section-two-body {
+            h3 {
+                font-size: 15px;
+                font-family: $section-font;
+                font-weight: 500;
+                margin-top: 0px;
+                color: black;
+                letter-spacing: 0px;
+            }
+
+            p {
+                font-family: $text-font;
+                font-size:12px;
+                margin: 0px 10px 10px 0px;
+
+            }
+
+        }
+    }
+
+    .column-section-three {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+
+        .column-section-three-head {
+        
+            h3 {
+                font-size: 15px;
+                font-family: Helvetica Neue;
+                margin-top:10px;
+                font-weight: 500;
+                color:$widget-color;
+                letter-spacing: 1px;                
+            }
+
+            img {
+                width:200px;
+                height: 203px;
+            }
+        }
+    }
+}
+
+.section-sidebar {
+
+
+    .ad-300x600 {
+        
+        width:300px;
+        height:600px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
