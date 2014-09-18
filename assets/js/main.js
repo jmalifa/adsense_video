@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    $('.video-slider').slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 5,
+              slidesToScroll: 3
+    });
     
     $(document).foundation();
     
