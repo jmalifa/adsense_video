@@ -3,7 +3,7 @@ var player = videojs('content_video');
 
 var options = {
   id: 'content_video',
-  adTagUrl: 'http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/47485983/video_player&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]'
+  adTagUrl: 'http://googleads.g.doubleclick.net/pagead/ads?ad_type=video&client=ca-video-pub-4968145218643279&videoad_start_delay=0&description_url=http%3A%2F%2Fwww.google.com&max_ad_duration=40000&adtest=on'
 };
 
 player.ima(options);
